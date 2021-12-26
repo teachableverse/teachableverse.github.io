@@ -1,14 +1,13 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Teachable Verse
+title: Teachable Verse | Make own Metaverse
+description: Teachable Verse is a platform that allows users to build on their own metaverse using AI.
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - metaverse
+  - AI
+  - teachablemachine
+  - game
+  - gym
 show_hero: true
 menu:
   - title: Home
@@ -19,13 +18,12 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: teachableverse@gmail.com
 # See: https://disqus.com/
-disqus_username: disqus_username
+disqus_username: teachableverse
 # Contact Form Setting
 # See: https://formspree.io/
-formspree_form_id: formspree_form_id
-
+formspree_form_id: xnqwnnnb
 
 # Social Media Settings
 # Remove the item if you don't need it

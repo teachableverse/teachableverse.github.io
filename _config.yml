@@ -44,8 +44,8 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+url: "www.teachableverse.com" # the base hostname & protocol for your site
+google_analytics: "G-8G0GJQ0C1Q"
 language: "en"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
@@ -103,4 +103,4 @@ exclude: [
 ]
 
 # Theme
-version: v3.1.1
+version: v0.1.0

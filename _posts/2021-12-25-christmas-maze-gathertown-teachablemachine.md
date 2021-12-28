@@ -41,7 +41,7 @@ The wef1yJup2 model provided by default has been learned as follows.
 |![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_stay.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_up.jpg)|   |![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_down.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_right.jpg)|
 |![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_left.jpg)|
 
-#### Usage
+### Usage
 
 1. 미리 만들어놓은 미로 게더타운(https://gather.town/app/4BDf97jEEOpc6l8c/christmas%20maze)에 접속합니다.
 1. gihtub 주소(https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine)에서 소스코드를 다운로드 받습니다. 
@@ -51,7 +51,7 @@ The wef1yJup2 model provided by default has been learned as follows.
 1. 키 메시지가 게더타운에 입력될 수 있도록 미로 게더타운 창을 클릭합니다.
 1. 미리 정의된 행동으로 게더타운의 아바타를 제어합니다.
 
-#### How to define your own behavior.
+### How to define your own behavior.
 
 Teachable Machine의 Pose Project로 머신러닝 모델을 아래 순서로 학습십니다. 
 

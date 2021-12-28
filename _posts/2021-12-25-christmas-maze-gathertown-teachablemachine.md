@@ -8,8 +8,8 @@ image: https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gath
 optimized_image: https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
 category: game
 tags:
-  - gather town
-  - teachable machine
+  - gathertown
+  - teachablemachine
   - game
 author: Taeyoung Kim
 ---
@@ -42,42 +42,45 @@ The wef1yJup2 model provided by default has been learned as follows.
 
 ### Usage
 
-1. 미리 만들어놓은 미로 게더타운(https://gather.town/app/4BDf97jEEOpc6l8c/christmas%20maze)에 접속합니다.
-1. gihtub 주소(https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine)에서 소스코드를 다운로드 받습니다. 
-1. 파이썬 프로그램인 app.py를 실행시킵니다. >> python app.py
-1. 크롬 브라우저 주소창에 127.0.0.1:5001를 입력합니다.
-1. Load 버튼을 클릭하여 이미 행동을 학습시킨 티처블머신 모델(wef1yJup2)을 로딩합니다. 만약 직접 행동을 정의한 모델이 있다면, 해당 모델의 아이디를 1. 입력한 후 Load 버튼을 클릭합니다.
-1. 키 메시지가 게더타운에 입력될 수 있도록 미로 게더타운 창을 클릭합니다.
-1. 미리 정의된 행동으로 게더타운의 아바타를 제어합니다.
+1. Access the pre-made maze town. : https://gather.town/app/4BDf97jEEOpc6l8c/Christmas%20maze
+1. Download the source code from the following github address. : https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine
+1. Run Python program app.py. >> python app.py
+1. Enter 127.0.0.1:5001 in the Chrome browser.
+1. Click the Load button to load the teachable machine model (wef1yJup2) that has already learned the behaviors. If you want to load your own model, enter the ID of the model and click the Load button.
+1. Click the Gather Town window so that the key message can be entered into Gather Town.
+1. Control Gather Town's avatar with predefined behaviors using cam.
 
 ### How to define your own behavior.
 
-Teachable Machine의 Pose Project로 머신러닝 모델을 아래 순서로 학습십니다. 
+You can train the machine learning model in the following order with the Teachable Machine Pose Project.
 
-1. https://teachablemachine.withgoogle.com/ 에 접속하여 Pose Project을 생성합니다.
+1. Access https://teachablemachine.withgoogle.com/ to create a Pose Project.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_0.jpg)
 
-2. stay-up-down-right-left 순으로 class를 추가하여 데이터 샘플을 수집합니다.
+2. Collect data samples by adding classes in the order of stay-up-down-right-left.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_1.jpg)
 
-3. Train Model을 클릭하여 수집한 데이터셋으로 모델을 학습시킵니다.
+3. Click the Train Model to train the model with the collected dataset.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_2.jpg)
 
-4. 학습한 모델이 정상적으로 작동되는 지 확인합니다.
+4. Make sure that the model you trained is functioning normally.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_3.jpg)
 
-5. [Upload my model] 버튼을 클릭하여 학습한 모델을 클라우드에 업로드합니다.
+5. Click the [Upload my model] button to upload the trained model to the cloud.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_4.jpg)
 
-6. 업로드 된 모델 경로 및 id를 확인합니다. 
+6. Check the uploaded model path and id. 
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_5.jpg)
 
-7. 확인한 id를 “http://127.0.0.1:5001/” 페이지의 입력 폼에 입력한 후 [Load] 클릭하면 학습한 모델이 적용됩니다.
+7. Enter the id into the input form on the page "http://127.0.0.1:5001/" and click [Load] to apply the trained model.
 
 ![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_training_6.jpg)
+
+### More
+* Go to github [here](https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine)

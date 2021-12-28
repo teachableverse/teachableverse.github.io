@@ -4,7 +4,7 @@ layout: post
 title: Christmas Maze on Gather Town using Teachable Machine
 subtitle: Gather Town and Teachable Machine
 description: This verse is a space where you can enjoy the Christmas maze together. This space was implemented on the gather town, and control definition is possible with the desired behavior through a teachable machine.
-image: https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
+image: https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_play.gif
 optimized_image: https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_title_0.jpg
 category: game
 tags:

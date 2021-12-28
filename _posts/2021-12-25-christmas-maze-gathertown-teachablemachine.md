@@ -40,7 +40,7 @@ The wef1yJup2 model provided by default has been learned as follows.
 |---|---|---|---|---|
 |![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_stay.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_up.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_down.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_right.jpg)|![img](https://teachableverse.github.io/warehouse/2021-12-25-christmas-maze-gathertown-teachablemachine_tmmodel_left.jpg)|
 
-### Usage
+### How to play
 
 1. Access the pre-made maze town. : https://gather.town/app/4BDf97jEEOpc6l8c/Christmas%20maze
 1. Download the source code from the following github address. : https://github.com/teachableverse/christmas-maze-gathertown-teachablemachine
